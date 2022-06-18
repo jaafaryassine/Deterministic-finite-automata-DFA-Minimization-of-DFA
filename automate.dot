@@ -1,0 +1,9 @@
+digraph{ 
+initial->0
+initial->1
+ 0->1 [label=A]
+ 1->2 [label=B] 
+ 2->3 [label=B] 
+ 2->final
+
+}
